@@ -14,7 +14,7 @@ Darkplus inspired colorscheme written in lua.
 ## Install
 
 ```lua
-use "lunarvim/darkplus.nvim"
+use "YaQia/darkplus.nvim"
 ```
 
 ## Activate
@@ -22,3 +22,12 @@ use "lunarvim/darkplus.nvim"
 ```lua
 vim.cmd("colorscheme darkplus")
 ```
+
+## Warning
+
+This is a fork of lunarvim/darkplus.nvim.
+
+Background color of highlight groups about borders are changed into the same color of `Normal`,
+ which is not suitable for floating windows without borderlines.
+ 
+ I use rounded everywhere, so this is my personal preference. Please understand.
