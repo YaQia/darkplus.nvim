@@ -207,6 +207,7 @@ theme.set_highlights = function()
   hl(0, '@lsp.type.member', { link = '@function' })
   hl(0, '@lsp.type.keyword', { link = '@keyword' })
   hl(0, '@lsp.typemod.keyword.controlFlow', { fg = c.purple, bg = 'NONE' })
+  hl(0, '@lsp.type.builtinAttribute', { link = 'Macro' })
   hl(0, '@lsp.mod.constructorOrDestructor', { link = '@constructor' })
   -- cpp highlight for operator is incorrect
   hl(0, '@lsp.type.operator.cpp', {})
