@@ -10,14 +10,15 @@ local colors = {
   -- bg     = '#68217a',
   bg     = '#252525',
   gray  = '#333333',
-  -- light_gray  = '#5c6370',
+  light_gray  = '#5c6370',
   gray3  = '#3e4452',
+  inactive_fg = '#5e5e5e',
 }
 
 return {
 	normal = {
 		a = { fg = colors.bg, bg = colors.blue },
-		b = { fg = colors.blue, bg = colors.gray },
+		b = { fg = colors.blue, bg = colors.light_gray },
 		c = { fg = colors.fg, bg = colors.bg },
 	},
 	insert = { a = { fg = colors.bg, bg = colors.green }, b = { fg = colors.green, bg = colors.gray } },
@@ -27,7 +28,8 @@ return {
 
 	inactive = {
 		a = { bg = colors.bg, fg = colors.blue },
-		b = { bg = colors.bg, fg = colors.gray, gui = "bold" },
+		-- gui = "bold" 
+		b = { bg = colors.gray, fg = colors.inactive_fg },
 		c = { bg = colors.bg, fg = colors.gray },
 	},
 }
