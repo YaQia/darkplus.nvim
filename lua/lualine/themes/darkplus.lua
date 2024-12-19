@@ -12,13 +12,13 @@ local colors = {
   gray  = '#333333',
   light_gray  = '#5c6370',
   gray3  = '#3e4452',
-  inactive_fg = '#5e5e5e',
+  inactive_fg = '#6f6f6f',
 }
 
 return {
 	normal = {
 		a = { fg = colors.bg, bg = colors.blue },
-		b = { fg = colors.blue, bg = colors.light_gray },
+		b = { fg = colors.blue, bg = colors.gray3 },
 		c = { fg = colors.fg, bg = colors.bg },
 	},
 	insert = { a = { fg = colors.bg, bg = colors.green }, b = { fg = colors.green, bg = colors.gray } },
