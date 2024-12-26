@@ -630,6 +630,11 @@ theme.set_highlights = function()
 
   -- Noice
 
+  -- blink.cmp
+  hl(0, "BlinkCmpMenuBorder", { fg = c.gray, bg = c.bg })
+  hl(0, "BlinkCmpDocBorder", { fg = c.gray, bg = c.bg })
+  hl(0, "BlinkCmpSignatureHelpBorder", { fg = c.gray, bg = c.bg })
+
   -- TreesitterContext
   hl(0, "TreesitterContext", { fg = 'NONE', bg = c.alt_bg })
 
