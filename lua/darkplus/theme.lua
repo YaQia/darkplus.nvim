@@ -632,6 +632,7 @@ theme.set_highlights = function()
 
   -- blink.cmp
   hl(0, "BlinkCmpMenuBorder", { fg = c.gray, bg = c.bg })
+  hl(0, "BlinkCmpMenu", { fg = c.fg, bg = 'NONE' })
   hl(0, "BlinkCmpDocBorder", { fg = c.gray, bg = c.bg })
   hl(0, "BlinkCmpSignatureHelpBorder", { fg = c.gray, bg = c.bg })
 
