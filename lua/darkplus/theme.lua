@@ -333,6 +333,7 @@ theme.set_highlights = function()
   hl(0, "IlluminatedWordRead", { link = 'LspReferenceRead' })
   hl(0, "IlluminatedWordText", { link = 'LspReferenceText' })
   hl(0, "IlluminatedWordWrite", { link = 'LspReferenceWrite' })
+  hl(0, "LspInlayHint", { fg = c.context, bg = 'NONE' })
   hl(0, "LspCodeLens", { fg = c.context, bg = 'NONE', italic = true, })
   hl(0, "LspCodeLensSeparator", { fg = c.context, bg = 'NONE', italic = true, })
 
