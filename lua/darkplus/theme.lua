@@ -413,7 +413,7 @@ theme.set_highlights = function()
   hl(0, "IndentBlanklineContextStart", { fg = 'NONE', bg = 'NONE', underline = true, })
   hl(0, "IndentBlanklineChar", { fg = c.dark_gray, bg = 'NONE' })
   -- snacks.nvim indent
-  hl(0, "SnacksIndentScope", { fg = '#f4f4f4', bg = 'NONE' })
+  hl(0, "SnacksIndentScope", { fg = c.gray, bg = 'NONE' })
   hl(0, "SnacksIndent", { fg = c.line, bg = 'NONE' })
   
   -- Dashboard
