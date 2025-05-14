@@ -266,6 +266,9 @@ theme.set_highlights = function()
   hl(0, "GitSignsAdd", { fg = c.sign_add, bg = 'NONE' })
   hl(0, "GitSignsChange", { fg = c.sign_change, bg = 'NONE' })
   hl(0, "GitSignsDelete", { fg = c.sign_delete, bg = 'NONE' })
+  hl(0, "MiniDiffSignAdd", { fg = c.sign_add, bg = 'NONE' })
+  hl(0, "MiniDiffChange", { fg = c.sign_change, bg = 'NONE' })
+  hl(0, "MiniDiffDelete", { fg = c.sign_delete, bg = 'NONE' })
 
   -- LSP
   hl(0, "DiagnosticHint", { fg = c.hint, bg = 'NONE' })
