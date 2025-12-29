@@ -23,6 +23,12 @@ use "YaQia/darkplus.nvim"
 vim.cmd("colorscheme darkplus")
 ```
 
+## Light / Dark
+
+- Uses the dark palette by default; set `:set background=light` (or `vim.o.background = 'light'`) to switch to the light palette.
+- The colorscheme listens for `background` changes and reapplies automatically, so terminal-driven OSC 11 background switches will be reflected without extra setup.
+- The bundled lualine theme follows the current background and rebuilds when the colorscheme reapplies.
+
 ## Warning
 
 This is a fork of lunarvim/darkplus.nvim.

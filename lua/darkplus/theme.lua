@@ -1,9 +1,8 @@
-local c = require('darkplus.palette')
-
 local hl = vim.api.nvim_set_hl
 local theme = {}
 
-theme.set_highlights = function()
+theme.set_highlights = function(palette)
+  local c = palette or require('darkplus.palette')
   -- Editor
   hl(0, "Normal", { fg = c.fg, bg = c.bg })
   hl(0, "SignColumn", { fg = 'NONE', bg = c.bg })
